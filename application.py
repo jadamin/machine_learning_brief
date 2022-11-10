@@ -35,10 +35,10 @@ conditions = st.number_input("conditions",min_value=0,max_value=5)
 grade = st.number_input("grade",min_value=3,max_value=13)
 yr_built = st.number_input('year construction', min_value=1900, max_value=2015)
 yr_renovated = st.number_input('year renovation', min_value=0, max_value=2015)
-surface_lot = st.number_input("surface_lot",min_value=0.000000, max_value=1300.000000)
-surface_base = st.number_input("surface_base",min_value=0.000000, max_value=1300.000000)
-surface_above = st.number_input("surface_above",min_value=0.000000, max_value=1300.000000)
-surface_liv = st.number_input("habitable surface",min_value=0.000000, max_value=1300.000000)
+surface_lot = st.number_input("surface_lot",min_value=0.000000, max_value=130000.000000)
+surface_base = st.number_input("surface_base",min_value=0.000000, max_value=130000.000000)
+surface_above = st.number_input("surface_above",min_value=0.000000, max_value=130000.000000)
+surface_liv = st.number_input("habitable surface",min_value=0.000000, max_value=130000.000000)
 
 if st.button('valider'):
     point_en_cours = {
